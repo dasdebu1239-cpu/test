@@ -1,0 +1,6 @@
+{
+  "name": "Perfect Capture",
+  "description": "Wedding photography client gallery with AI face search, photo selection, and instant high-res downloads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <!-- Atmospheric Stage & Fairy Lights Background -->
+    <path android:pathData="M0,0h400v400h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="400"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#211728" />
+                <item android:offset="0.5" android:color="#170F1C" />
+                <item android:offset="1.0" android:color="#0A060D" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Hanging Floral Garlands & Fairy Lights Canopy -->
+    <path
+        android:pathData="M30,10 L30,90 M70,10 L70,70 M110,10 L110,110 M290,10 L290,110 M330,10 L330,70 M370,10 L370,90"
+        android:strokeWidth="2.5"
+        android:strokeColor="#55F8D57E" />
+    <path
+        android:pathData="M30,90 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"
+        android:fillColor="#FBD051" />
+    <path
+        android:pathData="M110,110 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"
+        android:fillColor="#FBD051" />
+    <path
+        android:pathData="M290,110 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"
+        android:fillColor="#FBD051" />
+    <path
+        android:pathData="M370,90 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"
+        android:fillColor="#FBD051" />
+
+    <!-- Groom (Left side of couple) -->
+    <!-- Groom Turban & Silhouette -->
+    <path
+        android:pathData="M125,120 C125,95 145,80 165,80 C185,80 205,95 205,120 L125,120 Z"
+        android:fillColor="#8C1327" />
+    <path
+        android:pathData="M135,120 C135,110 145,105 165,105 C185,105 195,110 195,120 C195,160 185,185 165,185 C145,185 135,160 135,120 Z"
+        android:fillColor="#ECC095" />
+    <path
+        android:pathData="M90,200 C120,185 190,185 210,200 L210,380 L60,380 Z"
+        android:fillColor="#EFE6D8" />
+    <path
+        android:pathData="M90,200 L60,380"
+        android:strokeWidth="12"
+        android:strokeColor="#8C1327" />
+
+    <!-- Bride (Right side of couple, leaning gracefully) -->
+    <!-- Red Bridal Veil -->
+    <path
+        android:pathData="M205,115 C220,85 290,85 305,115 C320,150 330,220 335,380 L195,380 C200,280 195,180 205,115 Z"
+        android:fillColor="#8C1327" />
+    <path
+        android:pathData="M205,115 C220,85 290,85 305,115"
+        android:strokeWidth="5"
+        android:strokeColor="#FBD051" />
+    <!-- Bride Face -->
+    <path
+        android:pathData="M220,135 C220,120 235,110 255,110 C275,110 290,120 290,135 C290,170 275,195 255,195 C235,195 220,170 220,135 Z"
+        android:fillColor="#FAD8B0" />
+    <path
+        android:pathData="M255,108 L255,128"
+        android:strokeWidth="2"
+        android:strokeColor="#FBD051" />
+    <!-- Bride Red Lehenga Attire -->
+    <path
+        android:pathData="M200,215 C230,205 290,205 320,215 L350,380 L190,380 Z"
+        android:fillColor="#A11630" />
+
+    <!-- Jaimala / Flower Garlands connecting Bride and Groom -->
+    <path
+        android:pathData="M145,210 Q190,280 215,225"
+        android:strokeWidth="10"
+        android:strokeColor="#C72242" />
+    <path
+        android:pathData="M150,225 Q195,295 220,240"
+        android:strokeWidth="8"
+        android:strokeColor="#F5DF9E" />
+    <path
+        android:pathData="M235,225 Q210,310 185,250"
+        android:strokeWidth="10"
+        android:strokeColor="#C72242" />
+
+    <!-- Golden Ring in center (Symbolizing holy bond) -->
+    <path
+        android:pathData="M200,320 m-16,0 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0"
+        android:strokeWidth="4"
+        android:strokeColor="#FBD051" />
+    <path
+        android:pathData="M200,302 L200,307"
+        android:strokeWidth="3"
+        android:strokeColor="#FFF4D0" />
+</vector>

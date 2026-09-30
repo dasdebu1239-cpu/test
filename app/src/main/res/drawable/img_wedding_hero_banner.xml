@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="600dp"
+    android:height="280dp"
+    android:viewportWidth="600"
+    android:viewportHeight="280">
+
+    <!-- Gradient Background (Luxury Deep Mahogany / Dark Gold) -->
+    <path android:pathData="M0,0h600v280h-600z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="600"
+                android:endY="280"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#211015" />
+                <item android:offset="0.5" android:color="#3B1822" />
+                <item android:offset="1.0" android:color="#170A0F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Decorative Paisley / Alpona Patterns on edges -->
+    <path
+        android:pathData="M0,0 C80,30 140,100 120,200 C110,250 80,270 0,280 Z"
+        android:fillColor="#15FAD051" />
+    <path
+        android:pathData="M600,0 C520,30 460,100 480,200 C490,250 520,270 600,280 Z"
+        android:fillColor="#15FAD051" />
+
+    <!-- Hanging Lanterns / Fairy String Lights -->
+    <path
+        android:pathData="M80,0 L80,60 M140,0 L140,90 M220,0 L220,40 M380,0 L380,45 M460,0 L460,95 M520,0 L520,55"
+        android:strokeWidth="1.5"
+        android:strokeColor="#77FAD051" />
+    <path
+        android:pathData="M80,60 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#FBD051" />
+    <path
+        android:pathData="M140,90 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"
+        android:fillColor="#FBD051" />
+    <path
+        android:pathData="M460,95 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"
+        android:fillColor="#FBD051" />
+    <path
+        android:pathData="M520,55 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#FBD051" />
+
+    <!-- Center Wedding Rings & Camera Aperture Motif -->
+    <path
+        android:pathData="M280,140 m-35,0 a35,35 0 1,0 70,0 a35,35 0 1,0 -70,0"
+        android:strokeWidth="6"
+        android:strokeColor="#FBD051" />
+    <path
+        android:pathData="M320,140 m-35,0 a35,35 0 1,0 70,0 a35,35 0 1,0 -70,0"
+        android:strokeWidth="6"
+        android:strokeColor="#FFE8A3" />
+
+    <!-- Diamond on Intersecting Ring -->
+    <path
+        android:pathData="M320,105 L310,95 L330,95 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M320,90 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#FBD051" />
+
+    <!-- Camera Lens Icon Inside Ring Center -->
+    <path
+        android:pathData="M300,140 m-12,0 a12,12 0 1,0 24,0 a12,12 0 1,0 -24,0"
+        android:fillColor="#4A202A" />
+
+    <!-- Sparkle Stars -->
+    <path
+        android:pathData="M240,80 L243,87 L250,90 L243,93 L240,100 L237,93 L230,90 L237,87 Z"
+        android:fillColor="#FFF4D0" />
+    <path
+        android:pathData="M360,85 L363,91 L370,94 L363,97 L360,103 L357,97 L350,94 L357,91 Z"
+        android:fillColor="#FFF4D0" />
+    <path
+        android:pathData="M300,210 L303,216 L310,219 L303,222 L300,228 L297,222 L290,219 L297,216 Z"
+        android:fillColor="#FFF4D0" />
+</vector>

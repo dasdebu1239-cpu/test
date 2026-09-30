@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <!-- Background Rich Velvet Gradient -->
+    <path android:pathData="M0,0h400v400h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="400"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#361019" />
+                <item android:offset="0.6" android:color="#21080E" />
+                <item android:offset="1.0" android:color="#140408" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Warm Bokeh Golden Lights -->
+    <path
+        android:pathData="M60,60 m-35,0 a35,35 0 1,0 70,0 a35,35 0 1,0 -70,0"
+        android:fillColor="#15F8C654" />
+    <path
+        android:pathData="M340,90 m-45,0 a45,45 0 1,0 90,0 a45,45 0 1,0 -90,0"
+        android:fillColor="#18F8C654" />
+    <path
+        android:pathData="M310,290 m-30,0 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0"
+        android:fillColor="#15F8C654" />
+
+    <!-- Red Benarasi Veil (Dupatta/Odhni) Silhouette -->
+    <path
+        android:pathData="M110,120 C140,80 260,80 290,120 C320,170 330,260 340,380 L60,380 C70,260 80,170 110,120 Z"
+        android:fillColor="#8C1327" />
+
+    <!-- Gold Zari Border on Veil -->
+    <path
+        android:pathData="M110,120 C140,80 260,80 290,120"
+        android:strokeWidth="7"
+        android:strokeColor="#F5CB5C" />
+
+    <!-- Bride Face (Soft warm skin tone) -->
+    <path
+        android:pathData="M150,150 C150,130 170,110 200,110 C230,110 250,130 250,150 C250,195 230,230 200,230 C170,230 150,195 150,150 Z"
+        android:fillColor="#FAD8B0" />
+
+    <!-- Hair Silhouette -->
+    <path
+        android:pathData="M150,150 C150,120 170,105 200,105 C230,105 250,120 250,150 C230,130 170,130 150,150 Z"
+        android:fillColor="#241B18" />
+
+    <!-- Matha Patti / Maang Tikka (Bridal Gold Head Jewelry) -->
+    <path
+        android:pathData="M200,105 L200,140"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FBD051" />
+    <path
+        android:pathData="M200,143 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"
+        android:fillColor="#FBD051" />
+    <!-- Red Gem in Tikka -->
+    <path
+        android:pathData="M200,143 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"
+        android:fillColor="#C41C3B" />
+
+    <!-- Bindi and Chandan Bengali bridal artwork -->
+    <path
+        android:pathData="M200,153 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"
+        android:fillColor="#C41C3B" />
+    <path
+        android:pathData="M185,151 C193,148 198,150 200,150 C202,150 207,148 215,151"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Eyes (Gentle, expressive bridal eyes) -->
+    <path
+        android:pathData="M172,166 Q182,160 192,166"
+        android:strokeWidth="2.5"
+        android:strokeColor="#1F1715" />
+    <path
+        android:pathData="M208,166 Q218,160 228,166"
+        android:strokeWidth="2.5"
+        android:strokeColor="#1F1715" />
+
+    <!-- Nose Ring (Nath) with Chain -->
+    <path
+        android:pathData="M207,185 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"
+        android:strokeWidth="2"
+        android:strokeColor="#FBD051" />
+    <path
+        android:pathData="M214,185 Q235,175 245,160"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FBD051" />
+
+    <!-- Lips (Red Bridal Lip) -->
+    <path
+        android:pathData="M192,203 Q200,207 208,203"
+        android:strokeWidth="3.5"
+        android:strokeColor="#B81D39" />
+
+    <!-- Royal Gold Choker Necklace -->
+    <path
+        android:pathData="M175,232 Q200,248 225,232"
+        android:strokeWidth="9"
+        android:strokeColor="#FBD051" />
+    <path
+        android:pathData="M165,248 Q200,275 235,248"
+        android:strokeWidth="6"
+        android:strokeColor="#F0BC2E" />
+
+    <!-- Red Silk Blouse & Golden Embroidery -->
+    <path
+        android:pathData="M120,270 C160,260 240,260 280,270 L310,380 L90,380 Z"
+        android:fillColor="#96152B" />
+
+    <!-- Rose Garland / Varmala Accent -->
+    <path
+        android:pathData="M130,270 Q145,340 160,380"
+        android:strokeWidth="14"
+        android:strokeColor="#BA233C" />
+    <path
+        android:pathData="M270,270 Q255,340 240,380"
+        android:strokeWidth="14"
+        android:strokeColor="#BA233C" />
+</vector>

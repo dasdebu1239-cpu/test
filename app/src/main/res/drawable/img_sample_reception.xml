@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <!-- Luxury Midnight & Champagne Background -->
+    <path android:pathData="M0,0h400v400h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="400"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#191923" />
+                <item android:offset="0.6" android:color="#0F0F14" />
+                <item android:offset="1.0" android:color="#050508" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stage Floral Arch Archway -->
+    <path
+        android:pathData="M60,390 C60,180 340,180 340,390"
+        android:strokeWidth="18"
+        android:strokeColor="#2B2D42" />
+    <path
+        android:pathData="M80,390 C80,200 320,200 320,390"
+        android:strokeWidth="10"
+        android:strokeColor="#E8D3A2" />
+
+    <!-- Fairy Lights along the arch -->
+    <path
+        android:pathData="M100,280 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#FFF4D0" />
+    <path
+        android:pathData="M140,225 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"
+        android:fillColor="#FBD051" />
+    <path
+        android:pathData="M200,200 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"
+        android:fillColor="#FFF4D0" />
+    <path
+        android:pathData="M260,225 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"
+        android:fillColor="#FBD051" />
+    <path
+        android:pathData="M300,280 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#FFF4D0" />
+
+    <!-- Couple in Modern Royal Reception Tuxedo & Evening Gown -->
+    <!-- Groom in Tuxedo -->
+    <path
+        android:pathData="M120,220 C120,200 135,185 155,185 C175,185 190,200 190,220 C190,250 175,270 155,270 C135,270 120,250 120,220 Z"
+        android:fillColor="#ECC095" />
+    <!-- Groom Black Tuxedo Suit -->
+    <path
+        android:pathData="M95,280 C125,265 185,265 215,280 L230,390 L80,390 Z"
+        android:fillColor="#1B1B1E" />
+    <!-- White Shirt & Black Bowtie -->
+    <path
+        android:pathData="M140,270 L170,270 L160,310 L150,310 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M150,275 L160,275 L155,280 Z"
+        android:fillColor="#111111" />
+
+    <!-- Bride in Royal Champagne Evening Gown -->
+    <path
+        android:pathData="M210,230 C210,210 225,195 245,195 C265,195 280,210 280,230 C280,260 265,280 245,280 C225,280 210,260 210,230 Z"
+        android:fillColor="#FAD8B0" />
+    <!-- Updo Hairstyle with Diamond Tiara -->
+    <path
+        android:pathData="M210,220 C210,190 230,185 245,185 C260,185 280,190 280,220 C265,205 225,205 210,220 Z"
+        android:fillColor="#1F1715" />
+    <path
+        android:pathData="M235,190 Q245,183 255,190"
+        android:strokeWidth="3"
+        android:strokeColor="#FBD051" />
+
+    <!-- Champagne / Rose Gold Ballgown Silhouette -->
+    <path
+        android:pathData="M215,290 C235,280 270,280 290,290 L330,390 L180,390 Z"
+        android:fillColor="#CBA135" />
+    <path
+        android:pathData="M230,300 Q255,340 280,300"
+        android:strokeWidth="4"
+        android:strokeColor="#FFE8A3" />
+
+    <!-- Sparkler fireworks on sides -->
+    <path
+        android:pathData="M40,230 L55,235 M45,215 L55,225 M35,245 L50,240 M55,250 L60,240"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FBD051" />
+    <path
+        android:pathData="M360,230 L345,235 M355,215 L345,225 M365,245 L350,240 M345,250 L340,240"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FBD051" />
+</vector>

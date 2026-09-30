@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered Camera Body (Safe zone 21..87) -->
+    <!-- Camera Body -->
+    <path
+        android:pathData="M33,40 C33,37.5 35,35.5 37.5,35.5 L43.5,35.5 L46,31.5 C46.8,30.2 48.2,29.5 49.8,29.5 L58.2,29.5 C59.8,29.5 61.2,30.2 62,31.5 L64.5,35.5 L70.5,35.5 C73,35.5 75,37.5 75,40 L75,70 C75,72.5 73,74.5 70.5,74.5 L37.5,74.5 C35,74.5 33,72.5 33,70 Z"
+        android:fillColor="#E5A93C" />
+
+    <!-- Camera Top Prism Accent / Flash -->
+    <path
+        android:pathData="M48.5,32 L59.5,32 L57.5,35.5 L50.5,35.5 Z"
+        android:fillColor="#FFE8A3" />
+
+    <path
+        android:pathData="M67,39 C67,37.9 67.9,37 69,37 C70.1,37 71,37.9 71,39 C71,40.1 70.1,41 69,41 C67.9,41 67,40.1 67,39 Z"
+        android:fillColor="#FFE8A3" />
+
+    <!-- Lens Outer Ring (Dark contrast) -->
+    <path
+        android:pathData="M54,41 C61.18,41 67,46.82 67,54 C67,61.18 61.18,67 54,67 C46.82,67 41,61.18 41,54 C41,46.82 46.82,41 54,41 Z"
+        android:fillColor="#231713" />
+
+    <!-- Golden Aperture Rim -->
+    <path
+        android:pathData="M54,44 C59.52,44 64,48.48 64,54 C64,59.52 59.52,64 54,64 C48.48,64 44,59.52 44,54 C44,48.48 48.48,44 54,44 Z"
+        android:fillColor="#F6C453" />
+
+    <!-- Lens Glass -->
+    <path
+        android:pathData="M54,47 C57.87,47 61,50.13 61,54 C61,57.87 57.87,61 54,61 C50.13,61 47,57.87 47,54 C47,50.13 50.13,47 54,47 Z"
+        android:fillColor="#3D291F" />
+
+    <!-- Wedding Diamond Ring Accent intersecting the lens -->
+    <path
+        android:pathData="M54,49.5 C56.49,49.5 58.5,51.51 58.5,54 C58.5,56.49 56.49,58.5 54,58.5 C51.51,58.5 49.5,56.49 49.5,54 C49.5,51.51 51.51,49.5 54,49.5 Z"
+        android:fillColor="#FFECC2" />
+
+    <!-- Sparkle Diamond on top right of the lens -->
+    <path
+        android:pathData="M66,31 L67.5,35 L71.5,36.5 L67.5,38 L66,42 L64.5,38 L60.5,36.5 L64.5,35 Z"
+        android:fillColor="#FFF6DD" />
+
+    <!-- Small Sparkle on bottom left -->
+    <path
+        android:pathData="M37,62 L38,64.5 L40.5,65.5 L38,66.5 L37,69 L36,66.5 L33.5,65.5 L36,64.5 Z"
+        android:fillColor="#FAD782" />
+</vector>

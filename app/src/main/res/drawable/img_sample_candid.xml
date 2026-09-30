@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <!-- Cheerful Festive Background -->
+    <path android:pathData="M0,0h400v400h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="400"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#211E3B" />
+                <item android:offset="0.6" android:color="#141126" />
+                <item android:offset="1.0" android:color="#0A0814" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Golden Confetti and Sparkles -->
+    <path
+        android:pathData="M80,50 L84,58 L92,62 L84,66 L80,74 L76,66 L68,62 L76,58 Z"
+        android:fillColor="#FBD051" />
+    <path
+        android:pathData="M310,70 L313,76 L320,79 L313,82 L310,88 L307,82 L300,79 L307,76 Z"
+        android:fillColor="#FBD051" />
+    <path
+        android:pathData="M200,40 L203,46 L210,49 L203,52 L200,58 L197,52 L190,49 L197,46 Z"
+        android:fillColor="#FFF4D0" />
+
+    <!-- Three Friends / Guests / Bridesmaids Laughing Candidly -->
+    <!-- Friend Left (Teal / Emerald Saree) -->
+    <path
+        android:pathData="M70,165 C70,140 85,125 105,125 C125,125 140,140 140,165 C140,195 125,220 105,220 C85,220 70,195 70,165 Z"
+        android:fillColor="#E8BFA3" />
+    <path
+        android:pathData="M65,150 C65,120 80,115 105,115 C130,115 145,120 145,150 C130,135 80,135 65,150 Z"
+        android:fillColor="#1F1715" />
+    <path
+        android:pathData="M45,230 C70,215 130,215 155,230 L170,380 L30,380 Z"
+        android:fillColor="#15616D" />
+
+    <!-- Center Guest (Ananya - Pastel Pink / Rose Gold) -->
+    <path
+        android:pathData="M165,145 C165,120 180,105 200,105 C220,105 235,120 235,145 C235,185 220,205 200,205 C180,205 165,185 165,145 Z"
+        android:fillColor="#FAD8B0" />
+    <path
+        android:pathData="M160,130 C160,100 180,95 200,95 C220,95 240,100 240,130 C225,115 175,115 160,130 Z"
+        android:fillColor="#241B18" />
+    <!-- Smiling Eyes and Jhumka Earrings -->
+    <path
+        android:pathData="M180,145 Q190,140 200,145"
+        android:strokeWidth="2.5"
+        android:strokeColor="#1F1715" />
+    <path
+        android:pathData="M205,145 Q215,140 225,145"
+        android:strokeWidth="2.5"
+        android:strokeColor="#1F1715" />
+    <path
+        android:pathData="M163,165 L160,175"
+        android:strokeWidth="3"
+        android:strokeColor="#FBD051" />
+    <path
+        android:pathData="M237,165 L240,175"
+        android:strokeWidth="3"
+        android:strokeColor="#FBD051" />
+    <!-- Big Laughing Smile -->
+    <path
+        android:pathData="M188,172 Q200,185 212,172"
+        android:strokeWidth="3.5"
+        android:strokeColor="#B81D39" />
+    <!-- Elegant Festive Attire -->
+    <path
+        android:pathData="M135,215 C165,200 235,200 265,215 L285,380 L115,380 Z"
+        android:fillColor="#C75B7A" />
+
+    <!-- Friend Right (Mustard / Golden Yellow Kurti) -->
+    <path
+        android:pathData="M260,165 C260,140 275,125 295,125 C315,125 330,140 330,165 C330,195 315,220 295,220 C275,220 260,195 260,165 Z"
+        android:fillColor="#ECC095" />
+    <path
+        android:pathData="M255,150 C255,120 270,115 295,115 C320,115 335,120 335,150 C320,135 270,135 255,150 Z"
+        android:fillColor="#1F1715" />
+    <path
+        android:pathData="M240,230 C265,215 325,215 350,230 L370,380 L220,380 Z"
+        android:fillColor="#E09F3E" />
+</vector>

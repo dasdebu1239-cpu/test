@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <!-- Warm Firelight Ceremony Background -->
+    <path android:pathData="M0,0h400v400h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="400"
+                android:endX="200"
+                android:endY="0"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#361706" />
+                <item android:offset="0.5" android:color="#210D03" />
+                <item android:offset="1.0" android:color="#120501" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Holy Fire / Havan Kund Altar at bottom -->
+    <path
+        android:pathData="M120,340 L280,340 L250,390 L150,390 Z"
+        android:fillColor="#80280D" />
+    <path
+        android:pathData="M110,335 L290,335 L280,345 L120,345 Z"
+        android:fillColor="#C44818" />
+
+    <!-- Sacred Golden Flames -->
+    <path
+        android:pathData="M160,335 C150,300 170,270 190,240 C195,260 210,240 220,270 C230,300 240,320 235,335 Z"
+        android:fillColor="#F77F00" />
+    <path
+        android:pathData="M180,335 C175,310 185,290 198,265 C205,280 215,295 215,335 Z"
+        android:fillColor="#FBD051" />
+    <path
+        android:pathData="M192,335 C190,320 195,305 200,290 C205,305 208,320 206,335 Z"
+        android:fillColor="#FFF4D0" />
+
+    <!-- Groom's hand putting Sindoor on Bride's forehead (Sindoor Daan) -->
+    <!-- Bride Profile on Right -->
+    <path
+        android:pathData="M230,130 C230,110 245,95 270,95 C295,95 315,110 315,130 C315,170 295,190 270,190 C245,190 230,170 230,130 Z"
+        android:fillColor="#FAD8B0" />
+    <!-- Bride Red Dupatta -->
+    <path
+        android:pathData="M250,85 C280,85 330,110 330,170 C330,220 320,290 320,330 L220,330 C230,240 230,140 250,85 Z"
+        android:fillColor="#911832" />
+    <path
+        android:pathData="M250,85 C280,85 330,110 330,170"
+        android:strokeWidth="4"
+        android:strokeColor="#FBD051" />
+
+    <!-- Groom's Arm & Hand reaching over with Ring/Sindoor Coin -->
+    <path
+        android:pathData="M70,120 Q150,110 235,118"
+        android:strokeWidth="20"
+        android:strokeColor="#EFE6D8" />
+    <path
+        android:pathData="M220,115 L245,115"
+        android:strokeWidth="14"
+        android:strokeColor="#ECC095" />
+    <!-- Golden Sindoor Kunke / Coin -->
+    <path
+        android:pathData="M245,115 L252,112 L249,122 Z"
+        android:fillColor="#FBD051" />
+    <!-- Glowing Vermilion Sindoor Drop -->
+    <path
+        android:pathData="M254,115 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#C41C3B" />
+
+    <!-- Flower Petals showering downwards -->
+    <path
+        android:pathData="M110,70 Q118,78 110,86 Q102,78 110,70 Z"
+        android:fillColor="#E63946" />
+    <path
+        android:pathData="M150,50 Q158,58 150,66 Q142,58 150,50 Z"
+        android:fillColor="#FBD051" />
+    <path
+        android:pathData="M280,45 Q288,53 280,61 Q272,53 280,45 Z"
+        android:fillColor="#E63946" />
+    <path
+        android:pathData="M310,75 Q318,83 310,91 Q302,83 310,75 Z"
+        android:fillColor="#FBD051" />
+</vector>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <!-- Deep Royal Navy & Gold Gradient Background -->
+    <path android:pathData="M0,0h400v400h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="400"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0F1826" />
+                <item android:offset="0.7" android:color="#0A101A" />
+                <item android:offset="1.0" android:color="#05080E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Warm Amber Bokeh Lights -->
+    <path
+        android:pathData="M70,80 m-40,0 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0"
+        android:fillColor="#15F8C654" />
+    <path
+        android:pathData="M330,120 m-35,0 a35,35 0 1,0 70,0 a35,35 0 1,0 -70,0"
+        android:fillColor="#18F8C654" />
+
+    <!-- Groom Turban / Safa / Pagri (Royal Maroon & Gold) -->
+    <path
+        android:pathData="M140,110 C140,65 170,45 200,45 C230,45 260,65 260,110 L140,110 Z"
+        android:fillColor="#911832" />
+    <!-- Turban Folds -->
+    <path
+        android:pathData="M135,90 Q200,70 265,90"
+        android:strokeWidth="12"
+        android:strokeColor="#7A1026" />
+    <path
+        android:pathData="M140,105 Q200,85 260,105"
+        android:strokeWidth="10"
+        android:strokeColor="#911832" />
+
+    <!-- Kalgi / Sarpech (Royal Feather Brooch on Turban) -->
+    <path
+        android:pathData="M200,40 L200,75"
+        android:strokeWidth="4"
+        android:strokeColor="#FBD051" />
+    <path
+        android:pathData="M200,40 L195,15 Q200,20 205,15 Z"
+        android:fillColor="#FBD051" />
+    <path
+        android:pathData="M200,65 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#0D7F54" />
+
+    <!-- Groom Face -->
+    <path
+        android:pathData="M155,120 C155,110 170,100 200,100 C230,100 245,110 245,120 C245,170 230,210 200,210 C170,210 155,170 155,120 Z"
+        android:fillColor="#ECC095" />
+
+    <!-- Groom Eyes & Brows -->
+    <path
+        android:pathData="M170,140 Q180,136 190,140"
+        android:strokeWidth="3"
+        android:strokeColor="#1F1715" />
+    <path
+        android:pathData="M210,140 Q220,136 230,140"
+        android:strokeWidth="3"
+        android:strokeColor="#1F1715" />
+
+    <!-- Mustache & Smile -->
+    <path
+        android:pathData="M185,178 Q200,172 215,178"
+        android:strokeWidth="3"
+        android:strokeColor="#241B18" />
+
+    <!-- Royal Sherwani (Ivory & Gold brocade) -->
+    <path
+        android:pathData="M110,240 C150,225 250,225 290,240 L330,380 L70,380 Z"
+        android:fillColor="#F4EDE2" />
+
+    <!-- Mandarin Collar with Gold Embroidery -->
+    <path
+        android:pathData="M170,210 L170,240 L230,240 L230,210 Z"
+        android:fillColor="#D8C3A5" />
+    <path
+        android:pathData="M170,210 Q200,220 230,210"
+        android:strokeWidth="4"
+        android:strokeColor="#D4AF37" />
+
+    <!-- Center Button Placket -->
+    <path
+        android:pathData="M200,240 L200,380"
+        android:strokeWidth="4"
+        android:strokeColor="#D4AF37" />
+
+    <!-- Emerald / Pearl Groom Mala (Necklace) -->
+    <path
+        android:pathData="M160,245 Q200,310 240,245"
+        android:strokeWidth="7"
+        android:strokeColor="#0C6E48" />
+    <path
+        android:pathData="M150,260 Q200,340 250,260"
+        android:strokeWidth="5"
+        android:strokeColor="#F5DF9E" />
+
+    <!-- Royal Maroon Shawl (Stole/Doshala) on shoulder -->
+    <path
+        android:pathData="M110,240 C100,270 95,330 90,380 L135,380 C135,330 135,270 145,240 Z"
+        android:fillColor="#8C1327" />
+    <path
+        android:pathData="M145,240 L135,380"
+        android:strokeWidth="4"
+        android:strokeColor="#FBD051" />
+</vector>
